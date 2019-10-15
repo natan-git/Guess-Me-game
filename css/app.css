@@ -1,0 +1,100 @@
+
+body {
+  /* background-color: rgb(209, 209, 209); */
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+
+header {
+  /* background-color: rgb(238, 238, 238); */
+  text-align: center;
+  color:#fcf064;
+  font-size: 3em;
+}
+
+footer {
+  background-color:  black;
+  text-align: center;
+  color:lightblue;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* margin: 0px; */
+}
+.Lets-Play{
+  margin: 0 auto;
+}
+.form-control {
+  
+  width: 400px;
+}
+/* //////////////////////////////////////////////////////// */
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: -97px;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: rgb(126, 182, 255);
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: rgb(247, 68, 68);
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: rgb(114, 255, 92);
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #ADD9FE;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
+.header-box{
+  background-color: rgb(26, 26, 26);
+}
+
+
+
+
+/* play button css */
+
+
